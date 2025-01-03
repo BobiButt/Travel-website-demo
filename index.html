@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+M0jP6mYQXZtFw1pY+ybi3Lpw6IkjByE0/43H7f0u6I7602B6" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/bestServices.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+
+<body>
+    <header class="d-flex justify-content-center text-align-center flex-column w-100">
+        <nav class="navbar navbar-expand-sm navbar-light px-5 py-3 d-flex justify-content-between">
+            <!-- <div class="container nav-content">
+                <div>
+                    <a class="navbar-brand fw-bold fs-3 text-white s" href="#">TravelSphere</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#" aria-current="page">Home
+                                <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Hotels</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Booking</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" id="dropdownId"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <a class="dropdown-item" href="#">Action 1</a>
+                                <a class="dropdown-item" href="#">Action 2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white bg-success" href="#">login</a>
+                        </li>
+                    </ul>
+                 
+                </div>
+            </div> -->
+        <div>
+            <h3>TravelSphere</h3>
+        </div>
+        <div>
+<ul class="nav-links nl" id="">
+    <li><a href="">Home</a></li>
+    <li><a href="">Hotel</a></li>
+    <li><a href="">Booking</a></li>
+    <li><a href="">Packages</a></li>
+</ul>
+        </div>
+        <div class="burger" id="bur" onclick="burger()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="sidebar" id="sd">
+            <ul class="" id="nl">
+                <li><a href="">Home</a></li>
+                <li><a href="">Hotel</a></li>
+                <li><a href="">Booking</a></li>
+                <li><a href="">Packages</a></li>
+            </ul>
+        </div>
+        </nav>
+
+        <h1 class="text-center my-5">Travel And Explore</h1>
+        <div class="m-auto d-flex explore">
+            <p class=" me-2 p-2 fw-bold">Where you want to go ?</p>
+            <a href="" class="btn btn-success mx-auto mb-3">Explore Now</a>
+        </div>
+    </header>
+<main>
+    <div class="">
+        <h2 class="text-center mt-5">Famous Places</h2>
+        <div class="famousPlaces">
+            <div class="fp1">
+                <img src="./img/famous places/egypt.jpeg" alt="">
+                <p class="fw-bold mt-3 ps-2">
+                    destination name
+                </p>
+                <p class="ps-2">date of taking pic | person name</p>
+            </div>
+            <div class="fp2">
+                <img src="./img/famous places/paris.jpeg" alt="">
+                <p class="fw-bold mt-3 ps-2">
+                    destination name
+                </p>
+                <p class="ps-2">date of taking pic | person name</p>
+            </div>
+            <div class="fp3">
+                <img src="./img/famous places/Travel Trends.jpeg" alt="">
+                <p class="fw-bold mt-3 ps-2">
+                    destination name
+                </p>
+                <p class="ps-2">date of taking pic | person name</p>
+            </div>
+
+        </div>
+    </div>
+</main>
+<section class="services">
+    <h3 class="text-center mb-5">We Offer the Best Services</h3>
+    <div class="bestServices container">
+      
+      <!-- Unbeatable Flight Deals Section -->
+      <div class="service-item">
+        <img src="./img/customer care/unbeatable_flight-removebg-preview.png" alt="Egypt" class="service-img">
+        <p class="fw-bold mt-3 ps-2">Unbeatable Flight Deals</p>
+        <p class="service-description">
+          Take off on your next adventure with our exclusive flight deals. Compare prices across airlines, find the best rates, and book your tickets effortlessly to make your travel budget-friendly and stress-free.
+        </p>
+      </div>
+      
+      <!-- Guided Tours and Activities Section -->
+      <div class="service-item">
+        <img src="./img/customer care/guided_tour_-removebg-preview.png" alt="Paris" class="service-img">
+        <p class="fw-bold mt-3 ps-2">Guided Tours and Activities</p>
+        <p class="service-description">
+          Immerse yourself in local cultures and explore iconic landmarks with our expertly guided tours. From city walks to adventure treks, we offer unique experiences tailored to your preferences.
+        </p>
+      </div>
+      
+      <!-- 24/7 Customer Support Section -->
+      <div class="service-item">
+        <img src="./img/customer care/customer_care-removebg-preview.png" alt="Travel Trends" class="service-img">
+        <p class="fw-bold mt-3 ps-2">24/7 Customer Support</p>
+        <p class="service-description">
+          Our dedicated support team is available around the clock to assist you with any booking queries, travel emergencies, or last-minute changes, ensuring a hassle-free experience.
+        </p>
+      </div>
+      
+      <!-- New Section: Hotel Reservations -->
+      <div class="service-item">
+        <img src="./img/customer care/comfortable_hotel_reservation-removebg-preview.png" alt="Hotel" class="service-img">
+        <p class="fw-bold mt-3 ps-2">Comfortable Hotel Reservations</p>
+        <p class="service-description">
+          Discover a wide range of accommodations, from budget-friendly stays to luxury resorts. Book your ideal hotel effortlessly and enjoy a relaxing and memorable stay.
+        </p>
+      </div>
+      
+      <!-- New Section: Vacation Packages -->
+      <div class="service-item">
+        <img src="./img/customer care/exclusive_vacation_package-removebg-preview.png" alt="Vacation" class="service-img">
+        <p class="fw-bold mt-3 ps-2">Exclusive Vacation Packages</p>
+        <p class="service-description">
+          Whether you're planning a family holiday, a romantic getaway, or a solo adventure, our curated vacation packages offer unbeatable value and unforgettable experiences.
+        </p>
+      </div>
+  
+      <!-- Join Our Travel Community Section -->
+    <div class="service-item">
+        <img src="./img/customer care/join_our_community-removebg-preview.png" alt="Travel Community" class="service-img">
+        <p class="fw-bold mt-3 ps-2">Join Our Travel Community</p>
+        <p class="service-description">
+          Connect with like-minded travelers, share experiences, and stay updated with our insightful travel blogs and expert tips. Unlock a world of inspiration and practical advice for your journeys.
+        </p>
+      </div>
+
+    </div>
+</section>
+<!-- Footer Section -->
+<!-- Footer Section -->
+ <hr class="m-5">
+<footer class="footer text-dark py-4">
+    <div class="container">
+        <div class="row">
+            <!-- About Us -->
+            <div class="col-md-6 mb-3">
+                <h5>About Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-plane"></i> Trusted travel partner for all your journeys</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Explore top destinations worldwide</li>
+                    <li><i class="fas fa-headset"></i> 24/7 customer support for your convenience</li>
+                    <li><i class="fas fa-gift"></i> Exclusive deals and offers for members</li>
+                </ul>
+            </div>
+
+            <!-- Subscribe Form -->
+            <div class="col-md-6 mb-3">
+                <h5>Subscribe to Our Newsletter</h5>
+                <form class="subscribe-form d-flex flex-column align-items-center">
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12 text-center">
+                <p>&copy; 2025 TravelSphere. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkToN1wKF5gXRXF2K/T7NFp0QaV9EZGmVWk6TAQ8H9SRBaxj9fS"
+        crossorigin="anonymous"></script>
+        <script src="./js/burger.js">
+         
+          </script>
+</body>
+
+</html>

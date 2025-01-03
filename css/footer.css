@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 576px) {
+    .subscribe-form input,
+    .subscribe-form button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
